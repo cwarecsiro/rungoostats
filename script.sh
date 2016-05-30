@@ -1,6 +1,6 @@
 for datafile in *[AB].txt
 do 
-	echo "I added this line for running diff again"
+	echo "change 1"
 	echo "currently processing ${datafile}"
 	bash goostats "${datafile}" "stats-${datafile}"
 done
